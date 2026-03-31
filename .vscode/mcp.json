@@ -1,0 +1,17 @@
+{
+	"servers": {
+		"Tigris MCP Server": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@tigrisdata/tigris-mcp-server",
+				"run"
+			],
+			"env": {
+				"AWS_ACCESS_KEY_ID": "tid_bhLjX_qKcdHMilYrVipTu_SIFDNoSnlkpvpPgKpxEsBOZdYOxJ",
+				"AWS_SECRET_ACCESS_KEY": "tsec_5OUfoRls94b9JGT+qns7ekvvvasO8V_Sb6dReDL-YhhVXjzpUnSvKfY_EOr_kf2yNP5aTY",
+				"AWS_ENDPOINT_URL_S3": "https://t3.storage.dev"
+			}
+		}
+	}
+}
